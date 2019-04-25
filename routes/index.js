@@ -559,7 +559,7 @@ router.post('/profile_edit', function(req,res) {
     console.log("file name"+myfilename);
     console.log("file:"+myfile+"File Name: "+myfilename);
     
-    myfile.mv("https://github.com/crazy2engineers/Helpdesk/tree/master/public/profile/"+myfilename, function(err){
+    myfile.mv("https://github.com/crazy2engineers/Helpdesk/upload/master/public/profile"+myfilename, function(err){
     
       if(err){
         return res.status(500).send(err);
