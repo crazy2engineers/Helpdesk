@@ -41,7 +41,7 @@ app.use('/question',questionRouter);
 app.use('/material',materialRouter);
 app.use('/Contact',ContactRouter);
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://urjilpatel1998:5265@cc-neckz.mongodb.net/helpdesk?retryWrites=true',{useNewUrlParser: true})
+mongoose.connect('mongodb+srv://Facebook:Facebook@1998@cluster0-eagui.mongodb.net/HelpDesk?retryWrites=true',{useNewUrlParser: true})
 .then(() => console.log('connection succesful'))
 .catch((err) => console.error(err))
 
